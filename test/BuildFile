@@ -9,6 +9,6 @@
 <use name=Geometry/CaloEventSetup>
 
 <library file=TestCaloSelectors.cc name=TestCaloSelectors>
-  <flags SEAL_PLUGIN_NAME="TestCaloSelectors">
+  <flags EDM_PLUGIN=1>
 </library>
 
